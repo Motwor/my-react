@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://www.motwor.in",
+  "homepage": "https://www.motworoils.in",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build && echo 'www.motwor.in' > dist/CNAME",
+    "predeploy": "npm run build && echo 'www.motworoils.in' > dist/CNAME",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
