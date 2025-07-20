@@ -1,0 +1,136 @@
+
+.contact {
+    padding: 0px 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 20px;
+}
+
+.contact-subheading {
+    font-size: 18px;
+    color: #4a5568;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Section content (order details, inquiries) */
+.contact-info {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #2d3748;
+    margin: 10px 0;
+}
+
+.contact-info strong {
+    color: #276749;
+}
+
+/* Contact information list */
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #2d3748;
+}
+
+.contact-list li {
+    margin: 10px 0;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: #276749;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+    color: #2b6e4f;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact {
+        padding: 20px;
+    }
+
+    .contact-heading {
+        font-size: 28px;
+    }
+
+    .contact-subheading {
+        font-size: 16px;
+    }
+
+    .contact-list li {
+        font-size: 14px;
+    }
+}
+
+
+.firstcontainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    gap: 10px;
+    padding: 40px 20px;
+    background-color: #fff6f0;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    text-align: left;
+    transition: box-shadow 0.3s ease;
+}
+
+@media (max-width: 596px) {
+    .firstcontainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        gap: 10px;
+        padding: 0px 20px;
+        background-color: #fff6f0;
+        border-radius: 16px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        text-align: left;
+        transition: box-shadow 0.3s ease;
+    }
+}
+
+.image-section {
+    width: 50%;
+}
+
+@media (max-width: 596px) {
+    .image-section {
+        width: 100%;
+    }
+}
+
+.rounded-img {
+    border-radius: 20px;
+    margin-top: 0px;
+    width: 70%;
+    height: 20rem;
+}
+
+
+@media (max-width: 596px) {
+    .rounded-img {
+        border-radius: 20px;
+        width: 90%;
+        height: 90%;
+    }
+}
